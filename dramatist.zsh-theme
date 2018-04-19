@@ -27,12 +27,12 @@ function box_name {
 
 
 # local rvm_ruby='‹$(rvm-prompt i v g)›%{$reset_color%}'
-local current_dir='${PWD/#$HOME/~}'
+local current_dir='%c' # For only dir #'${PWD/#$HOME/~}' # For full path
 local git_info='$(git_prompt_info)'
 
 
 PROMPT=" %{$FG[202]%}╭─ %{$FG[040]%}$terminfo[bold]%n%{$reset_color%} %{$FG[202]%}at%{$reset_color%} %{$FG[033]%}$terminfo[bold]$(box_name)%{$reset_color%} %{$FG[202]%}in%{$reset_color%} %{$terminfo[bold]$FG[226]%}${current_dir}%{$reset_color%}${git_info} %{$FG[202]%}using%{$FG[040]%} %D{%f/%m} %*
- %{$FG[202]%}╰─$(virtualenv_info)$(prompt_char) %{$FG[040]%}"
+ %{$FG[202]%}╰─$(virtualenv_info)$(prompt_char) %{$FG[114]%}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[202]%}on%{$reset_color%} %{$fg[255]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
