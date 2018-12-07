@@ -1,7 +1,7 @@
 # codemascot.zsh-theme
 
 # Use with a dark background and 256-color terminal!
-# Meant for people with git. Tested only on Ubuntu 16.04 (till now).
+# Meant for people with git. Tested only on Ubuntu 18.04 (till now).
 
 # You can set your computer name in the ~/.box-name file if you want.
 
