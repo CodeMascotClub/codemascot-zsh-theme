@@ -1,4 +1,4 @@
-# dramatist.zsh-theme
+# codemascot.zsh-theme
 
 # Use with a dark background and 256-color terminal!
 # Meant for people with git. Tested only on Ubuntu 16.04 (till now).
