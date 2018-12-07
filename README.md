@@ -1,5 +1,5 @@
-# Dramatist ZSH Theme
-This theme I inherited or forked from **fino-time** ZSH theme. I modified or
+# CodeMascot ZSH Theme
+This theme I inherited or forked from **[fino-time](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/fino-time.zsh-theme)** ZSH theme. I modified or
 changed it as I liked.
 
 ## Installation
